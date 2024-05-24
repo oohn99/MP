@@ -1,0 +1,166 @@
+@media (max-width: 768px) {
+  .post {
+    width: 100vw;
+    height: 100vh;
+    background-color: #F5F5F5;
+  }
+
+  .title {
+    padding: 10px;
+    text-align: center;
+
+    font-size: 5vW;
+    font-style: bold;
+    font-weight: 600;
+    color: #2E4374;
+  }
+
+  .board {
+    width: 98%;
+    height: 7vh;
+
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 2px 4px gray;
+    background-color: #FFFFFF;
+  }
+
+  .top_area{
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .date_h_m{
+    float: right;
+    display: inline;
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+  }
+
+  .main_title{
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+  }
+
+  .bottom_area{
+    border-bottom: 1px solid #ccc;
+  }
+
+  .member{
+    font-size: 10px;
+    font-style: bold;
+    font-weight: 600;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+  }
+
+  .main_container{
+    width: 98%;
+    height: 30vh;
+  
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 2px 4px gray;
+    background-color: #FFFFFF;
+  }
+  
+  .content{
+    font-size: 15px;
+    font-weight: 600;
+    padding: 1%;
+    margin-top: 3%;
+    margin-left: 1%;
+  }
+
+  .comment_area{
+    width: 98%;
+    height: 52vh;
+
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 2px 4px gray;
+    background-color: #FFFFFF;
+  }
+  
+  .comment_list{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid black;
+  }
+
+  .meta {
+    margin: 1%;
+  }
+
+  .date{
+    padding: 0 3px;
+    font-size: 10px;
+  }
+
+  .comment{
+    font-size: 13px;
+    margin-left: 3%;
+  }
+
+  .comment_box{
+    width: 96%;
+    
+    position:absolute;
+    top: 90%;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #FFFFFF;
+    display: inline-block;
+  }
+
+  .custom-input {
+    display: inline-block;
+    width: 78%;
+    max-width: 87%;
+    padding: 10px; 
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 4px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  .custom-input:focus {
+    border-color: #2E4374;
+    box-shadow: inset 0 2px 4px black;
+    outline: none; 
+  }
+  
+  .custom-input::placeholder {
+    color: #aaa;
+  }
+  
+  .Submit-Button{
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    background-color: #2E4374;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 16;
+  }
+}
